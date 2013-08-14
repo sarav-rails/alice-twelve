@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.14'
 
+ruby "1.9.3"
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -41,4 +43,4 @@ gem 'spree', '2.0.4'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
 
-gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
+#gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
