@@ -68,7 +68,7 @@ a, img {
 }
 .top-links {
 	float:right;
-	width:110px;
+	width:155px;
 	height:15px;
 	margin-right: 10px;
 	margin-top:18px;
@@ -126,14 +126,14 @@ a, img {
 .header-bottom {
 	float: left;
 	margin-left: 178px;
-	width: 660px;
+	width: auto;
 }
 .navigation {
 	float: left;
 	height: 25px;
-	margin-left: 50px;
+	/*margin-left: 50px;*/
 	margin-top: 38px;
-	width: 190px;
+	width: 255px;
 }
 .navigation ul {
 	list-style: none outside none;
@@ -163,6 +163,7 @@ a, img {
 	width:155px;
 	height:115px;
 	margin-top: -30px;
+	margin-right: 40px;
 }
 .slider {
 	margin-left:auto;
