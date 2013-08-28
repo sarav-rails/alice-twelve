@@ -7,7 +7,8 @@ ruby "1.9.3"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+#gem 'pg'
+gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -40,7 +41,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'spree', '2.0.4'
-gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
-gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
+gem 'spree_gateway', :git => 'http://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
+gem 'spree_auth_devise', :git => 'http://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
 
 #gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
