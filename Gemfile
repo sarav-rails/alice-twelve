@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.14'
+gem 'rails', '3.2.14', :path => 'vendor/ruby/1.9.1/gems/rails-3.2.14'
 
 ruby "1.9.3"
 
@@ -8,7 +8,7 @@ ruby "1.9.3"
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-#gem 'sqlite3'
+#gem 'sqlite3' #, :path => 'vendor/ruby/1.9.1/gems/sqlite3-1.3.8-x86-mingw32'
 
 
 # Gems used only for assets and not required
@@ -23,7 +23,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', :path => 'vendor/ruby/1.9.1/gems/jquery-rails-3.0.4'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -40,7 +40,8 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'spree', '2.0.4'
+gem 'spree', '2.0.4', :path => 'vendor/ruby/1.9.1/gems/spree-2.0.4'
+
 gem 'spree_gateway', :git => 'http://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
 gem 'spree_auth_devise', :git => 'http://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
 
