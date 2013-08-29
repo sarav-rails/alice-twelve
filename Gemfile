@@ -41,7 +41,9 @@ gem 'jquery-rails', :path => 'vendor/ruby/1.9.1/gems/jquery-rails-3.0.4'
 # gem 'debugger'
 
 gem 'spree', '2.0.4', :path => 'vendor/ruby/1.9.1/gems/spree-2.0.4'
-gem 'spree_sample-2.0.4', '2.0.4', :path => 'vendor/ruby/1.9.1/gems/spree_sample-2.0.4'
+gem 'spree_core', '2.0.4', :path => 'vendor/ruby/1.9.1/gems/spree_core-2.0.4'
+gem 'spree_sample', '2.0.4', :path => 'vendor/ruby/1.9.1/gems/spree_sample-2.0.4'
+gem 'spree_frontend', '2.0.4', :path => 'vendor/ruby/1.9.1/gems/spree_frontend-2.0.4'
 
 gem 'spree_gateway', :git => 'http://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
 gem 'spree_auth_devise', :git => 'http://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
