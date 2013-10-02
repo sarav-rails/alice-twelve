@@ -7,8 +7,8 @@ ruby "1.9.3"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-#gem 'pg'
-gem 'sqlite3' #, :path => 'vendor/ruby/1.9.1/gems/sqlite3-1.3.8-x86-mingw32'
+gem 'pg'
+#gem 'sqlite3' #, :path => 'vendor/ruby/1.9.1/gems/sqlite3-1.3.8-x86-mingw32'
 
 
 # Gems used only for assets and not required
@@ -46,7 +46,10 @@ gem 'spree_sample-2.0.4', '2.0.4', :path => 'vendor/ruby/1.9.1/gems/spree_sample
 gem 'spree_frontend', '2.0.4', :path => 'vendor/ruby/1.9.1/gems/spree_frontend-2.0.4'
 gem 'canonical-rails', '0.0.3', :path => 'vendor/ruby/1.9.1/gems/canonical-rails-0.0.3'
 
-gem 'spree_gateway', :git => 'http://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
-gem 'spree_auth_devise', :git => 'http://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
+gem 'spree_gateway' #, :git => 'http://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
+gem 'spree_auth_devise' #, :git => 'http://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
+
+#gem 'spree_gateway', :git => 'http://github.com/spree/spree_gateway.git', :branch => '2-0-stable'
+#gem 'spree_auth_devise', :git => 'http://github.com/spree/spree_auth_devise.git', :branch => '2-0-stable'
 
 #gem 'spree_blue_theme', :git => 'git://github.com/spree/spree_blue_theme.git'
