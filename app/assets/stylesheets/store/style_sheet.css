@@ -148,8 +148,9 @@ a, img {
 }
 .navigation ul li a {
 	color:#625044;
-	font-family:Tahoma, Arial;
-	font-size: 16px;
+	/*font-family:Tahoma, Arial;*/
+	font-family:basictitle, Arial;
+	font-size: 20px;
 	text-transform: uppercase;
 	display:inline;
 	transition: all 0.3s ease 0s;
@@ -765,3 +766,9 @@ a, img {
 	width: 380px;
 	background:#cfaa74;
 }
+
+@font-face {
+  font-family: "BasicTitle";
+  src: url(/assets/basictitlefont.ttf) format("truetype");
+}
+h1 { font-family: "BasicTitle", sans-serif }

@@ -7,8 +7,8 @@ ruby "1.9.3"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
-#gem 'sqlite3' #, :path => 'vendor/ruby/1.9.1/gems/sqlite3-1.3.8-x86-mingw32'
+#gem 'pg'
+gem 'sqlite3' #, :path => 'vendor/ruby/1.9.1/gems/sqlite3-1.3.8-x86-mingw32'
 
 
 # Gems used only for assets and not required

@@ -765,3 +765,10 @@ a, img {
 	width: 380px;
 	background:#cfaa74;
 }
+
+
+@font-face {
+  font-family: "BasicTitle";
+  src: url(/assets/basictitlefont.ttf) format("truetype");
+}
+h1 { font-family: "BasicTitle", sans-serif }
